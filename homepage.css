@@ -42,7 +42,13 @@ body{
           border: 3px solid cornflowerblue;
           border-radius: 50%;
           }
-  
+   
+    .img3 {
+    top: 80px;
+    left: 20px;
+    width: 150px;
+  }
+
       }
           
       
@@ -61,12 +67,6 @@ body{
 
 
 
-.img3 {
-  position: static;
-  top: 80px;
-  left: 20px;
-  width: 150px;
-}
 
 /* Style the navigation bar */
 .navbar {

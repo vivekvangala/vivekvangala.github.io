@@ -3,7 +3,7 @@
     <title>Vivek Vangala's Website</title>
     <link href= "homepage.css" "https://fonts.googleapis.com/css?family=Jolly+Lodger&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="homepage.js"></script>
+
 
 
 <a href='index.html'><button>Go Home</button></a>
@@ -23,45 +23,52 @@
     </div>
 </div>
 
-</body>
-</html>
-	  
-	  
-	  
-	  
-	  
+
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-img3 {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
+body {
+  font-family: "Lato", sans-serif;
 }
 
-img:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 </style>
 </head>
 <body>
 
-<p>This is the American Robin. It is a common bird in northern Virginia.</p>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="HowIBuilt.html">How This Site Was Built</a>
+  <a href="bird-blog.html">Bird Blog</a>
+  <a href="MyCodingProjects.html">Programming Portfolio</a>
+</div>
 
-<a target="_blank" href="american-robin.jpg">
-  <img src="american-robin.jpg" alt="American Robin" style="width:150px">
-</a>
 
+<span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776; Menu</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+   
 </body>
-</html>
+</html> 
+
+
 
     <p>
-
-	      
-	    
-	    
-	    
+    
      Welcome! 
 	<br>
 	<br>
@@ -73,8 +80,59 @@ I've been interested in web development for the last couple of years, and throug
 	  <br>
 	  <br>
      Mouse over the drop down menu at the top to find other pages you'll like - you can see a blog about birds, a description of how I made the website, more about me, and even some other programming projects I've completed.
-    </p>
-	
+
+
+<br>
+<br>
+<br>
+
+<html>
+  
+  <body>
+    <div class="container">
+      Meme Generator
+      <a href="http://vivekv.flask.cwhq-apps.com/h21_framework1_12/login" target="_blank">
+        <span class="link"></span>
+      </a>
+    </div>
+  </body>
+</html>
+
+
+<html>
+  
+  <body>
+    <div class="container2">
+      Notepad
+      <a href="https://vivekv.codewizardshq.com/H13_backend_wd_12/notes.html" target="_blank">
+        <span class="link"></span>
+      </a>
+    </div>
+  </body>
+</html>
+
+
+
+<html>
+  
+  <body>
+    <div class="container3">
+      Clicker Game
+      <a href="https://vivekv.codewizardshq.com/H13_backend_wd_12/notes.html" target="_blank">
+        <span class="link"></span>
+      </a>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
 
 
     
@@ -88,6 +146,9 @@ I've been interested in web development for the last couple of years, and throug
 <html>
 <head>
 <style>
+
+
+
 
 
 
